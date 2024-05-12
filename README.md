@@ -14,5 +14,5 @@ authorities values('ROLE_LIBRARIAN','mike');**
 > [!IMPORTANT]  
 > It's also important to note that all apis except the create patron api are locked automatically by Spring security and require the 
 necessary basic authentication (username and password) to access them. You can go through the SecurityConfig class to know what roles
-are configured for the .
+are configured for the various roles.
 
