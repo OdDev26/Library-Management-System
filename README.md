@@ -9,7 +9,7 @@
 >  The encode password above was encoded using bcrypt password encoder and the value is **test**.
 
 > [!IMPORTANT]  
-> It's also important to note that all apis except the create patron api are locked automatically by Spring security and require the 
+> It's also important to note that all apis except the add patron api are locked automatically by Spring security and require the 
 necessary basic authentication (username and password) to access them. You can go through the SecurityConfig class to know what roles
 are configured for the various roles.
 
